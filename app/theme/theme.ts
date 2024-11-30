@@ -5,6 +5,12 @@ const config: ThemeConfig = {
   useSystemColorMode: false,
 };
 
-const theme = extendTheme({ config });
+const theme = extendTheme({
+  ...config,
+  fonts: {
+    heading: "var(--font-open-sans)",
+    body: "var(--font-open-sans)",
+  },
+});
 
 export default theme;

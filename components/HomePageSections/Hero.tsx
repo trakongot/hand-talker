@@ -90,7 +90,7 @@ export const Hero = () => {
           </Stack>
           <Stack direction={{ base: "column", sm: "row" }} spacing={8}>
             <Button
-              href={"TEMPLATES_LINK"}
+              href={""}
               colorScheme={"green"}
               background={"green.400"}
               _hover={{ bg: "green.500" }}

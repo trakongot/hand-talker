@@ -10,8 +10,8 @@ export const NAV_ITEMS: Array<NavItem> = [
     label: "Trang Chủ",
     children: [
       {
-        label: "Giới thiệu về HandTalk",
-        subLabel: "Tìm hiểu về HandTalk và các tính năng của nó.",
+        label: "Giới thiệu",
+        subLabel: "Tìm hiểu về HandTalk và các tính năng.",
         href: "#",
       },
       {
@@ -22,27 +22,17 @@ export const NAV_ITEMS: Array<NavItem> = [
     ],
   },
   {
-    label: "Phân Tích & Dịch Ngôn Ngữ Ký Hiệu",
+    label: "Dịch Ngôn Ngữ Ký Hiệu",
     children: [
       {
-        label: "Tải video/hình ảnh lên",
-        subLabel: "Tải video hoặc hình ảnh để phân tích ngôn ngữ ký hiệu.",
+        label: "Dịch Ký Hiệu từ Video",
+        subLabel: "Tải video hoặc hình ảnh để chuyển thành văn bản dễ hiểu.",
         href: "#",
       },
       {
-        label: "Kết quả phân tích",
+        label: "Chuyển Văn Bản thành Ký Hiệu",
         subLabel:
-          "Xem các kết quả phân tích ngôn ngữ ký hiệu từ video hoặc hình ảnh.",
-        href: "#",
-      },
-      {
-        label: "Dịch ngôn ngữ ký hiệu",
-        subLabel: "Dịch ngôn ngữ ký hiệu thành văn bản hoặc âm thanh.",
-        href: "#",
-      },
-      {
-        label: "Phát hiện ngôn ngữ ký hiệu",
-        subLabel: "Phát hiện ngôn ngữ ký hiệu trong video hoặc hình ảnh.",
+          "Xem kết quả phân tích và chuyển đổi văn bản thành ngôn ngữ ký hiệu.",
         href: "#",
       },
     ],
