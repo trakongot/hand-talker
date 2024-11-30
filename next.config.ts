@@ -1,7 +1,22 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  compilerOptions: {
+    module: "ESNext",
+    moduleResolution: "Bundler",
+    skipLibCheck: true,
+    paths: {
+      "@/*": ["./src/*"],
+    },
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
