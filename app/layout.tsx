@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
 
-export const openSans = Open_Sans({
+const openSans = Open_Sans({
   subsets: ["latin"],
   variable: "--font-open-sans",
 });

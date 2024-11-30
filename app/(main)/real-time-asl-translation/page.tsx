@@ -178,7 +178,16 @@ export default function Page() {
               leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
               disabled={isRecording}
             >
-              {isRecording ? "Đang quay..." : "Quay Video Trực Tuyến"}
+              {isRecording ? "Đang quay..." : "Quay Video"}
+            </Button>
+            <Button
+              rounded={"full"}
+              size={"lg"}
+              fontWeight={"normal"}
+              px={6}
+              leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
+            >
+              Quay Video Trực Tuyến
             </Button>
           </Stack>
         </Stack>
@@ -251,6 +260,7 @@ export default function Page() {
           </ModalBody>
           <ModalFooter>
             <Button
+              className="cursor-pointer"
               onClick={startRecording}
               rounded={"full"}
               size={"lg"}
@@ -265,6 +275,7 @@ export default function Page() {
               Bắt đầu
             </Button>
             <Button
+              className="cursor-pointer"
               onClick={handleSaveVideo}
               rounded={"full"}
               size={"lg"}

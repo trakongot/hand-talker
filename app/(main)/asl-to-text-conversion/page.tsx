@@ -70,6 +70,15 @@ export default function Page() {
               px={6}
               leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
             >
+              Quay Video
+            </Button>
+            <Button
+              rounded={"full"}
+              size={"lg"}
+              fontWeight={"normal"}
+              px={6}
+              leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
+            >
               Quay Video Trực Tuyến
             </Button>
           </Stack>
